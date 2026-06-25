@@ -1,0 +1,4 @@
+Coloque aqui os arquivos de logo dos clientes (carrossel da home):
+  cielo.svg, atacadao.svg, newave.svg, tenda.svg, fundacao-itau.svg
+De preferência .svg ou .png com fundo transparente.
+Enquanto não existirem, o site mostra o nome em texto automaticamente.

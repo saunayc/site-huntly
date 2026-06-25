@@ -1,0 +1,57 @@
+HUNTLY — SITE (6 páginas)
+=========================
+
+Arquivos:
+  index.html Home
+  huntly-executive-search.html .......... Executive Search
+  huntly-recrutamento-especializado.html  Recrutamento Especializado
+  huntly-rpo.html ....................... RPO
+  huntly-recrutadores.html .............. Recrutadores (Huntly Partner)
+  huntly-quem-somos.html ................ Quem somos
+  sitemap.xml / robots.txt .............. SEO técnico (vão na raiz do site)
+  logos/ ................................ pasta para os logos dos clientes
+
+IMPORTANTE
+  - Mantenha todos os HTML na MESMA pasta (os links são relativos).
+  - Para publicar: troque o domínio placeholder
+    https://www.huntly.com.br/ pelo domínio real nas tags
+    canonical / Open Graph / JSON-LD de cada página, e no sitemap/robots.
+
+A FAZER ANTES DE PUBLICAR (placeholders)
+  - logos dos clientes -> pasta logos/ (ver logos/LEIA-ME.txt)
+  - foto do time (Quem somos) -> arquivo equipe.jpg na raiz
+  - bios/nomes da equipe e respostas do FAQ de Recrutadores
+  - imagem de preview social -> og-image.jpg na raiz
+  - confirmar números (92%, +10k, 3x, etc.) e URL do LinkedIn
+
+BOTÃO FLUTUANTE DE CONTATO (novo)
+  - Adicionado em todas as 6 páginas (canto inferior direito).
+  - ANTES DE PUBLICAR, edite as 2 linhas no fim de CADA página:
+      HUNTLY_WHATSAPP = "5581900000000"  -> número real (55+DDD+número, só dígitos)
+      HUNTLY_EMAIL    = "contato@huntly.com.br" -> e-mail real
+  - A mensagem pré-preenchida do WhatsApp (HUNTLY_WA_MSG) também é editável.
+
+ENVIO REAL DOS FORMULÁRIOS (novo)
+  Os 5 formulários agora enviam via Formspree (formspree.io). Para ativar:
+  1. Crie uma conta gratuita em formspree.io
+  2. Crie DOIS formulários no painel:
+     - "Huntly — Leads" (recebe Home, Executive Search, Recrut. Especializado e RPO)
+     - "Huntly — Recrutadores" (recebe os cadastros de parceiros)
+  3. Cada formulário gera um ID (ex: xqkrwzab). Substitua em TODAS as páginas:
+     FORM_ID_CLIENTES      -> ID do formulário de leads
+     FORM_ID_RECRUTADORES  -> ID do formulário de recrutadores
+     (busca e substituição global resolve em segundos)
+  4. Configure o e-mail de destino de cada formulário no painel do Formspree.
+  Extras já incluídos: campo "origem" identifica a página de cada lead,
+  honeypot anti-spam, mensagens de sucesso/erro no padrão visual do site.
+  Plano gratuito: 50 envios/mês por conta. Se passar disso, o plano pago
+  resolve — ou migramos para Web3Forms (sem limite) com ajuste mínimo.
+
+CASES COM LOGOS (atualização)
+  - Os cards de case da Home e das páginas de serviço (RPO, Executive
+    Search, Recrut. Especializado) agora exibem a LOGO do cliente em
+    destaque, em bloco navy.
+  - Logos faltando: tenda.png (Construtora Tenda). Enquanto não houver
+    o arquivo, o site mostra o nome em texto automaticamente (fallback).
+    Para ativar a logo: coloque o arquivo em logos/tenda.png.
+  - Todas as outras logos de case já estão presentes na pasta logos/.

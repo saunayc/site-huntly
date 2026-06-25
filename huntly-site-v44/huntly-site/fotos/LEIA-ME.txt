@@ -1,0 +1,35 @@
+FOTOS DOS CASES — onde colocar as imagens
+===========================================
+
+Os cases são ANÔNIMOS (mostram setor + porte, não o nome do cliente).
+As imagens devem ser TEMÁTICAS DO SETOR (profissionais/ambiente do
+segmento), de bancos gratuitos com uso comercial liberado e SEM marca.
+
+Coloque os arquivos aqui (formato .jpg, retrato/vertical, ex: 600x800px).
+Enquanto o arquivo não existir, aparece um bloco navy elegante com o
+nome do setor (placeholder). Ao adicionar a imagem com o nome exato
+abaixo, ela aparece automaticamente.
+
+Arquivos esperados (por setor):
+  - fotos/case-energia.jpg            (Executive — geração de energia)
+  - fotos/case-pagamentos.jpg         (RPO — meios de pagamento / fintech)
+  - fotos/case-energia-utilities.jpg  (RPO — energia & utilities)
+  - fotos/case-varejo.jpg             (RPO — atacado & varejo / logística)
+  - fotos/case-bens-consumo.jpg       (RPO — bens de consumo / indústria)
+  - fotos/case-construcao.jpg         (Especializado — construção civil)
+  - fotos/case-saude.jpg              (Especializado — saúde)
+
+Sugestão de busca em bancos gratuitos (Unsplash / Pexels):
+  energia            -> "power transmission towers", "wind turbines", "engineer energy"
+  pagamentos         -> "payment terminal store", "fintech office", "retail checkout"
+  energia & utilities-> "power plant engineer", "electrical grid", "field technician"
+  varejo             -> "warehouse logistics", "retail store team", "distribution center"
+  bens de consumo    -> "factory production line", "corporate team meeting", "FMCG"
+  construção         -> "construction site engineer", "civil engineering team"
+  saúde              -> "healthcare office", "medical administrative team"
+
+Outras fotos (opcionais):
+  - fotos/john-joseph.jpg       (recrutador, página Recrutadores)
+  - fotos/suzana-guerreiro.jpg  (recrutador, página Recrutadores)
+
+OBS: A foto do time na página Quem Somos foi removida.
