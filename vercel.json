@@ -1,0 +1,13 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/huntly-site-v44/huntly-site/huntlysitev58/index.html"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/huntly-site-v44/huntly-site/huntlysitev58/:path*"
+    }
+  ]
+}
