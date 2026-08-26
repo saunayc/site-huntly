@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidade e Termos de Uso · Huntly</title>
+<meta name="description" content="Política de Privacidade (LGPD) e Termos de Uso do site da Huntly — como tratamos seus dados pessoais e as condições de uso.">
+<meta name="robots" content="noindex,follow">
+<meta name="author" content="Huntly">
+<link rel="canonical" href="https://www.huntly.com.br/huntly-legal">
+<meta name="theme-color" content="#0E1B2E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Huntly">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Privacidade e Termos · Huntly">
+<meta property="og:description" content="Como a Huntly trata dados pessoais e as condições de uso do site.">
+<meta property="og:url" content="https://www.huntly.com.br/huntly-legal">
+<meta property="og:image" content="https://www.huntly.com.br/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Privacidade e Termos · Huntly">
+<meta name="twitter:description" content="Como a Huntly trata dados pessoais e as condições de uso do site.">
+<meta name="twitter:image" content="https://www.huntly.com.br/og-image.jpg">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Libre+Franklin:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{ "@context":"https://schema.org","@type":"WebPage","name":"Política de Privacidade e Termos de Uso · Huntly","url":"https://www.huntly.com.br/huntly-legal","about":{"@type":"ProfessionalService","name":"Huntly","url":"https://www.huntly.com.br/"} }</script>
+<style>
+
+:root{
+  /* Base clara — paleta preservada */
+  --paper:#FBFCFE;
+  --paper-2:#EEF2F8;
+  --paper-3:#E8EEF7;
+
+  /* Navy institucional */
+  --ink:#11294A;
+  --ink-deep:#0E1B2E;
+
+  /* Azul muito comedido — só estrutura/links */
+  --blue:#1E5BA8;
+  --blue-soft:#2E7BD6;
+
+  /* Dourado — único acento */
+  --gold:#B0883F;
+  --gold-bright:#C9A766;
+
+  /* Cinzas */
+  --slate:#54607A;
+  --slate-soft:#7C879B;
+  --slate-on-dark:#A9B7CE;
+
+  --line:rgba(17,41,74,.12);
+  --line-strong:rgba(17,41,74,.22);
+  --line-on-dark:rgba(255,255,255,.14);
+
+  --serif:'Merriweather',Georgia,serif;
+  --sans:'Libre Franklin',system-ui,-apple-system,sans-serif;
+
+  --maxw:1180px;
+  --pad:40px;
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:16px;
+  line-height:1.7;
+  font-weight:400;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  overflow-x:hidden;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+
+.container{max-width:var(--maxw);margin:0 auto;padding:0 var(--pad);}
+
+/* Elementos editoriais base */
+.eyebrow{
+  display:inline-flex;align-items:center;gap:12px;
+  font-family:var(--sans);font-size:12px;font-weight:600;
+  letter-spacing:.22em;text-transform:uppercase;color:var(--gold);
+  margin-bottom:26px;
+}
+.eyebrow::before{content:'';width:28px;height:1px;background:var(--gold);}
+.eyebrow.on-dark{color:var(--gold-bright);}
+.eyebrow.on-dark::before{background:var(--gold-bright);}
+
+.h-display{
+  font-family:var(--serif);font-weight:400;
+  line-height:1.2;letter-spacing:-.015em;color:var(--ink);
+}
+.h-display em{font-style:italic;font-weight:700;color:var(--ink);}
+.section-title{
+  font-family:var(--serif);font-weight:400;
+  font-size:clamp(28px,3.4vw,42px);line-height:1.22;
+  letter-spacing:-.015em;max-width:18ch;margin-bottom:20px;
+}
+.section-title em{font-style:italic;font-weight:700;color:var(--blue);}
+.section-lead{
+  font-size:17px;line-height:1.7;color:var(--slate);
+  max-width:62ch;font-weight:300;
+}
+
+.section{padding:120px 0;}
+.section.tight{padding:96px 0;}
+
+/* Reveal on scroll */
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .8s ease,transform .8s ease;}
+.reveal.in{opacity:1;transform:none;}
+
+/* ============ NAV ============ */
+.nav{position:absolute;top:0;left:0;right:0;z-index:60;transition:background .3s ease,border-color .3s ease;border-bottom:1px solid transparent;}
+.nav-inner{
+  max-width:var(--maxw);margin:0 auto;padding:30px var(--pad);
+  display:flex;align-items:center;justify-content:space-between;
+}
+.brand-logo{height:30px;width:auto;}
+/* topo (sobre o hero navy): logo claro */
+.nav .brand-logo-dark{display:none;}
+.nav .brand-logo-light{display:block;}
+.nav-links{display:flex;align-items:center;gap:38px;list-style:none;}
+.nav-links a{
+  font-size:14.5px;color:#fff;font-weight:500;letter-spacing:.005em;
+  position:relative;transition:color .2s ease;
+}
+.nav-links a:not(.nav-cta):hover{color:var(--gold-bright);}
+.nav-links a.active::after{
+  content:'';position:absolute;left:0;right:0;bottom:-7px;height:2px;background:var(--gold-bright);
+}
+.nav-cta{
+  padding:11px 24px;border:1px solid rgba(255,255,255,.45);border-radius:2px;
+  color:#fff;font-weight:600;transition:all .25s ease;
+}
+.nav-cta:hover{background:#fff;color:var(--ink);border-color:#fff;}
+
+/* rolado: barra navy fixa, mantém logo e texto claros */
+.nav.scrolled{position:fixed;background:var(--ink-deep);border-bottom-color:var(--line-on-dark);}
+
+/* ============ HERO ============ */
+.hero{position:relative;min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:150px 0 52px;color:#fff;overflow:hidden;background:var(--ink-deep);}
+.hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;filter:grayscale(.5) contrast(1.06);}
+.hero-veil{position:absolute;inset:0;z-index:1;
+  background:linear-gradient(100deg,rgba(14,27,46,.95) 0%,rgba(14,27,46,.84) 36%,rgba(14,27,46,.56) 70%,rgba(14,27,46,.40) 100%),
+             linear-gradient(180deg,rgba(14,27,46,0) 55%,rgba(14,27,46,.55) 100%);}
+.hero-content{position:relative;z-index:2;width:100%;}
+.hero-text{max-width:60%;}
+.hero-title{font-size:clamp(40px,5.2vw,64px);line-height:1.12;margin-bottom:28px;color:#fff;}
+.hero-title em{display:block;color:var(--gold-bright);}
+.hero-lead{
+  font-size:18px;line-height:1.75;color:#D7DEEC;font-weight:300;
+  max-width:48ch;margin-bottom:38px;
+}
+.hero-actions{display:flex;align-items:center;gap:22px;flex-wrap:wrap;}
+.hero .btn-primary{background:#fff;color:var(--ink);}
+.hero .btn-primary:hover{background:var(--gold-bright);color:var(--ink-deep);}
+.hero .btn-ghost{color:#fff;border-color:rgba(255,255,255,.45);}
+.hero .btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.06);}
+
+.btn{
+  display:inline-flex;align-items:center;gap:11px;
+  font-family:var(--sans);font-size:14.5px;font-weight:600;letter-spacing:.01em;
+  padding:15px 30px;border-radius:2px;cursor:pointer;border:1px solid transparent;
+  transition:all .25s ease;white-space:nowrap;
+}
+.btn-primary{background:var(--ink);color:#fff;}
+.btn-primary:hover{background:var(--blue);}
+.btn-ghost{background:transparent;color:var(--ink);border-color:var(--line-strong);}
+.btn-ghost:hover{border-color:var(--ink);}
+.btn .arr{transition:transform .25s ease;}
+.btn:hover .arr{transform:translateX(4px);}
+
+.hero-figure{position:relative;}
+.hero-figure img{
+  width:100%;height:540px;object-fit:cover;border-radius:3px;
+  filter:grayscale(.35) contrast(1.04);
+}
+.hero-figure::after{
+  content:'';position:absolute;inset:0;border-radius:3px;
+  background:linear-gradient(180deg,rgba(14,27,46,.04) 38%,rgba(14,27,46,.66) 100%);
+}
+.hero-figure-rule{
+  position:absolute;left:-1px;top:36px;bottom:36px;width:3px;background:var(--gold);z-index:2;
+}
+.hero-figure-cap{
+  position:absolute;left:28px;bottom:26px;z-index:3;color:#fff;
+}
+.hero-figure-cap .k{
+  font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:#EAD7A6;font-weight:700;margin-bottom:6px;text-shadow:0 1px 6px rgba(0,0,0,.55);
+}
+.hero-figure-cap .v{font-family:var(--serif);font-size:20px;line-height:1.3;max-width:16ch;text-shadow:0 1px 8px rgba(0,0,0,.5);}
+
+/* Trust row */
+.trust{margin-top:80px;padding:34px 0 4px;border-top:1px solid var(--line-on-dark);}
+.trust-label{
+  font-size:12px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--slate-on-dark);font-weight:600;margin-bottom:18px;
+}
+.logo-carousel{position:relative;overflow:hidden;
+  -webkit-mask:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);
+          mask:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);}
+.logo-track{display:flex;align-items:center;gap:72px;width:max-content;animation:logoscroll 30s linear infinite;}
+.logo-carousel:hover .logo-track{animation-play-state:paused;}
+.logo-item{flex:0 0 auto;height:42px;display:flex;align-items:center;justify-content:center;}
+.logo-item img{height:34px;width:auto;object-fit:contain;filter:grayscale(1) brightness(0) invert(1);opacity:.62;transition:opacity .3s ease;}
+.logo-item:hover img{opacity:1;}
+.logo-mark{font-family:var(--serif);font-size:23px;color:#fff;opacity:.58;letter-spacing:.01em;white-space:nowrap;transition:opacity .3s ease;display:none;}
+.logo-item.no-logo .logo-mark{display:inline;}
+.logo-item:hover .logo-mark{opacity:1;}
+@keyframes logoscroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+@media(prefers-reduced-motion:reduce){.logo-track{animation:none;flex-wrap:wrap;gap:22px 48px;}}
+
+/* ============ VALOR ============ */
+.valor-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:0;
+  margin-top:62px;border-top:1px solid var(--line);
+}
+.valor-item{padding:42px 38px 42px 0;border-right:1px solid var(--line);}
+.valor-item:last-child{border-right:none;padding-right:0;}
+.valor-item:not(:first-child){padding-left:38px;}
+.valor-num{
+  font-family:var(--serif);font-size:15px;color:var(--gold);
+  font-weight:700;margin-bottom:18px;letter-spacing:.04em;
+}
+.valor-title{font-family:var(--serif);font-size:22px;font-weight:700;line-height:1.3;margin-bottom:14px;}
+.valor-desc{font-size:15.5px;line-height:1.68;color:var(--slate);font-weight:300;}
+
+/* ============ SOLUÇÕES ============ */
+.solucoes-head{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;flex-wrap:wrap;margin-bottom:56px;}
+.sol-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;}
+.sol-card{
+  position:relative;border:1px solid var(--line);border-radius:3px;overflow:hidden;
+  background:var(--paper);transition:border-color .3s ease,transform .3s ease;
+  display:flex;flex-direction:column;
+}
+.sol-card:hover{border-color:var(--line-strong);transform:translateY(-4px);}
+.sol-img{position:relative;height:230px;overflow:hidden;}
+.sol-img img{width:100%;height:100%;object-fit:cover;filter:grayscale(.5) contrast(1.05);transition:filter .5s ease,transform .8s ease;}
+.sol-card:hover .sol-img img{filter:grayscale(0);transform:scale(1.04);}
+.sol-img::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,27,46,0),rgba(14,27,46,.45));}
+.sol-num{position:absolute;top:18px;left:20px;z-index:2;font-family:var(--serif);font-size:14px;font-weight:700;color:#fff;letter-spacing:.08em;}
+.sol-body{padding:30px 28px 32px;flex:1;display:flex;flex-direction:column;}
+.sol-title{font-family:var(--serif);font-size:21px;font-weight:700;line-height:1.3;margin-bottom:12px;}
+.sol-desc{font-size:15px;line-height:1.66;color:var(--slate);font-weight:300;margin-bottom:22px;flex:1;}
+.sol-link{font-size:14px;font-weight:600;color:var(--blue);display:inline-flex;align-items:center;gap:8px;}
+.sol-link .arr{transition:transform .25s ease;}
+.sol-card:hover .sol-link .arr{transform:translateX(4px);}
+
+/* ============ STATS (faixa navy) ============ */
+.stats{background:var(--ink-deep);color:#fff;padding:96px 0;}
+.stats-lead{font-family:var(--serif);font-size:clamp(22px,2.6vw,30px);font-weight:300;line-height:1.45;max-width:46ch;color:#fff;margin-bottom:58px;}
+.stats-lead em{font-style:normal;color:var(--gold-bright);}
+.stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;border-top:1px solid var(--line-on-dark);padding-top:48px;}
+.stat-num{font-family:var(--serif);font-size:clamp(46px,5.5vw,64px);font-weight:300;line-height:1;color:var(--gold-bright);margin-bottom:14px;}
+.stat-label{font-size:14.5px;color:var(--slate-on-dark);letter-spacing:.02em;}
+
+/* ============ METODOLOGIA ============ */
+.method-wrap{margin-top:56px;border-top:1px solid var(--line);}
+.method-row{border-bottom:1px solid var(--line);cursor:pointer;}
+.method-head{display:grid;grid-template-columns:64px 1fr auto;gap:24px;align-items:center;padding:30px 4px;}
+.method-num{font-family:var(--serif);font-size:18px;font-weight:700;color:var(--gold);}
+.method-name{font-family:var(--serif);font-size:clamp(20px,2.2vw,26px);font-weight:400;color:var(--ink);transition:color .25s ease;}
+.method-row:hover .method-name,.method-row.active .method-name{color:var(--blue);}
+.method-toggle{width:30px;height:30px;border:1px solid var(--line-strong);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .3s ease;}
+.method-row.active .method-toggle{background:var(--ink);border-color:var(--ink);}
+.method-toggle svg{width:14px;height:14px;stroke:var(--ink);transition:all .3s ease;}
+.method-row.active .method-toggle svg{stroke:#fff;transform:rotate(45deg);}
+.method-detail{max-height:0;overflow:hidden;transition:max-height .45s ease;}
+.method-row.active .method-detail{max-height:420px;}
+.method-detail-inner{padding:0 4px 36px 88px;}
+.method-summary{font-size:16px;color:var(--slate);font-weight:300;max-width:64ch;margin-bottom:22px;}
+.method-detail-label{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:14px;}
+.method-detail-inner ul{list-style:none;display:grid;gap:12px;max-width:64ch;}
+.method-detail-inner li{position:relative;padding-left:22px;font-size:15px;color:var(--ink);font-weight:300;}
+.method-detail-inner li::before{content:'';position:absolute;left:0;top:11px;width:7px;height:1px;background:var(--gold);}
+.method-foot{margin-top:36px;font-size:15px;color:var(--slate);}
+.method-foot a{color:var(--blue);font-weight:600;}
+.method-layout{display:grid;grid-template-columns:.82fr 1.18fr;gap:56px;align-items:start;margin-top:56px;}
+.method-col .method-wrap{margin-top:0;}
+.method-figure{position:sticky;top:108px;}
+.method-figure img{width:100%;height:540px;object-fit:cover;border-radius:3px;filter:grayscale(.42) contrast(1.05);}
+.method-figure::after{content:'';position:absolute;inset:0;border-radius:3px;background:linear-gradient(180deg,rgba(14,27,46,.05) 38%,rgba(14,27,46,.64) 100%);}
+.method-figure-rule{position:absolute;left:-1px;top:34px;bottom:34px;width:3px;background:var(--gold);z-index:2;}
+.method-figure-cap{position:absolute;left:26px;bottom:24px;z-index:3;color:#fff;}
+.method-figure-cap .k{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#EAD7A6;font-weight:700;margin-bottom:6px;text-shadow:0 1px 6px rgba(0,0,0,.55);}
+.method-figure-cap .v{font-family:var(--serif);font-size:18px;line-height:1.32;max-width:18ch;text-shadow:0 1px 8px rgba(0,0,0,.5);}
+
+/* ============ FAIXA EDITORIAL ============ */
+.imgband{position:relative;padding:164px 0;overflow:hidden;color:#fff;}
+.imgband::before{content:'';position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1606836591695-4d58a73eba1e?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;filter:grayscale(.55) contrast(1.05);}
+.imgband::after{content:'';position:absolute;inset:0;background:linear-gradient(108deg,rgba(14,27,46,.93) 0%,rgba(14,27,46,.74) 48%,rgba(14,27,46,.42) 100%);}
+.imgband-inner{position:relative;z-index:2;}
+.imgband-statement{font-family:var(--serif);font-weight:300;font-size:clamp(28px,4vw,46px);line-height:1.28;max-width:22ch;color:#fff;margin-top:8px;}
+.imgband-statement em{font-style:italic;color:var(--gold-bright);}
+
+/* ============ COMPROMISSOS (faixa enxuta) ============ */
+.commit{background:var(--paper-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+.commit-inner{display:grid;grid-template-columns:repeat(3,1fr);gap:0;}
+.commit-item{padding:54px 36px 54px 0;border-right:1px solid var(--line);}
+.commit-item:last-child{border-right:none;}
+.commit-item:not(:first-child){padding-left:36px;}
+.commit-ic{width:30px;height:30px;stroke:var(--ink);stroke-width:1.4;fill:none;margin-bottom:18px;}
+.commit-title{font-family:var(--serif);font-size:18px;font-weight:700;margin-bottom:10px;}
+.commit-desc{font-size:14.5px;color:var(--slate);font-weight:300;line-height:1.6;}
+
+/* ============ SEGMENTOS ============ */
+.seg-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:56px;border-top:1px solid var(--line);border-left:1px solid var(--line);}
+.seg-item{padding:32px 26px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);transition:background .3s ease;}
+.seg-item:hover{background:var(--paper-2);}
+.seg-ic{width:26px;height:26px;stroke:var(--gold);stroke-width:1.4;fill:none;margin-bottom:18px;}
+.seg-title{font-family:var(--serif);font-size:16.5px;font-weight:700;line-height:1.35;margin-bottom:8px;}
+.seg-roles{font-size:13px;color:var(--slate-soft);font-weight:300;line-height:1.55;}
+
+/* ============ CASES ============ */
+.cases-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:30px;margin-top:56px;}
+.case-card{border:1px solid var(--line);border-radius:3px;padding:38px 36px;background:var(--paper);transition:border-color .3s ease;}
+.case-card:hover{border-color:var(--line-strong);}
+.case-tag{display:inline-block;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:18px;}
+.case-title{font-family:var(--serif);font-size:23px;font-weight:700;line-height:1.32;margin-bottom:26px;}
+.case-block{margin-bottom:20px;}
+.case-block-label{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--slate-soft);font-weight:600;margin-bottom:6px;}
+.case-block-text{font-size:15px;color:var(--ink);font-weight:300;line-height:1.6;}
+.case-metrics{display:flex;gap:42px;margin-top:28px;padding-top:26px;border-top:1px solid var(--line);}
+.case-metric-value{font-family:var(--serif);font-size:34px;font-weight:300;color:var(--ink);line-height:1;}
+.case-metric-value .accent{color:var(--gold);font-size:22px;}
+.case-metric-label{font-size:12.5px;color:var(--slate-soft);margin-top:8px;}
+
+/* ============ DEPOIMENTOS ============ */
+.testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:56px;}
+.testi-card{border-top:2px solid var(--gold);padding:30px 4px 4px;}
+.testi-quote{width:30px;height:22px;fill:var(--paper-3);margin-bottom:18px;}
+.testi-text{font-family:var(--serif);font-size:17px;font-style:italic;font-weight:300;line-height:1.6;color:var(--ink);margin-bottom:26px;}
+.testi-author{display:flex;align-items:center;gap:14px;}
+.testi-author img{width:46px;height:46px;border-radius:50%;object-fit:cover;filter:grayscale(.4);}
+.testi-name{font-size:14.5px;font-weight:600;color:var(--ink);}
+.testi-role{font-size:13px;color:var(--slate-soft);}
+
+/* ============ PERSPECTIVAS ============ */
+.persp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:56px;border-top:1px solid var(--line);}
+.persp-item{padding:38px 34px 38px 0;border-right:1px solid var(--line);display:flex;flex-direction:column;}
+.persp-item:last-child{border-right:none;}
+.persp-item:not(:first-child){padding-left:34px;}
+.persp-kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:18px;}
+.persp-title{font-family:var(--serif);font-size:21px;font-weight:700;line-height:1.34;margin-bottom:16px;flex:1;}
+.persp-link{font-size:13.5px;font-weight:600;color:var(--blue);display:inline-flex;align-items:center;gap:8px;}
+
+/* ============ FORM ============ */
+.form-section{background:var(--ink-deep);color:#fff;padding:110px 0;}
+.form-wrap{max-width:760px;margin:0 auto;}
+.form-head{text-align:center;margin-bottom:52px;}
+.form-title{font-family:var(--serif);font-size:clamp(30px,3.6vw,44px);font-weight:400;line-height:1.2;color:#fff;margin-bottom:16px;}
+.form-title em{font-style:italic;color:var(--gold-bright);}
+.form-sub{font-size:16px;color:var(--slate-on-dark);font-weight:300;}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;}
+.form-field{display:flex;flex-direction:column;}
+.form-field.full{grid-column:1/-1;}
+.form-label{font-size:13px;letter-spacing:.04em;color:var(--slate-on-dark);margin-bottom:9px;font-weight:500;}
+.form-label .req{color:var(--gold-bright);margin-left:3px;}
+.form-input,.form-textarea{
+  background:transparent;border:none;border-bottom:1px solid var(--line-on-dark);
+  color:#fff;font-family:var(--sans);font-size:15.5px;padding:10px 2px;transition:border-color .25s ease;
+}
+.form-input::placeholder,.form-textarea::placeholder{color:rgba(169,183,206,.5);}
+.form-input:focus,.form-textarea:focus{outline:none;border-color:var(--gold-bright);}
+.form-textarea{resize:vertical;min-height:90px;}
+.form-submit{
+  background:var(--gold);color:var(--ink-deep);border:none;cursor:pointer;
+  font-family:var(--sans);font-size:15px;font-weight:700;letter-spacing:.01em;
+  padding:16px 36px;border-radius:2px;display:inline-flex;align-items:center;gap:10px;
+  justify-self:start;transition:background .25s ease;
+}
+.form-submit:hover{background:var(--gold-bright);}
+
+/* ============ FOOTER ============ */
+.footer{background:var(--ink-deep);color:#fff;padding:72px 0 40px;border-top:1px solid var(--line-on-dark);}
+.footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px;padding-bottom:48px;}
+.footer-logo{height:34px;width:auto;margin-bottom:20px;}
+.footer-tagline{font-size:14.5px;color:var(--slate-on-dark);font-weight:300;line-height:1.65;max-width:34ch;}
+.footer-col-title{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-bright);font-weight:600;margin-bottom:18px;}
+.footer-col-list{list-style:none;display:grid;gap:11px;}
+.footer-col-list a{font-size:14.5px;color:var(--slate-on-dark);font-weight:300;transition:color .2s ease;}
+.footer-col-list a:hover{color:#fff;}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:18px;padding-top:30px;border-top:1px solid var(--line-on-dark);font-size:13px;color:var(--slate-on-dark);}
+.footer-bottom-links{list-style:none;display:flex;gap:28px;}
+.footer-bottom-links a{color:var(--slate-on-dark);transition:color .2s ease;}
+.footer-bottom-links a:hover{color:#fff;}
+
+/* ============ RESPONSIVO ============ */
+@media(max-width:980px){
+  .hero{min-height:88vh;padding:128px 0 48px;}
+  .hero-text{max-width:100%;}
+  .hero-veil{background:linear-gradient(120deg,rgba(14,27,46,.94) 0%,rgba(14,27,46,.78) 60%,rgba(14,27,46,.58) 100%),linear-gradient(180deg,rgba(14,27,46,0) 50%,rgba(14,27,46,.6) 100%);}
+  .method-layout{grid-template-columns:1fr;gap:0;}
+  .method-figure{position:static;margin-bottom:40px;}
+  .method-figure img{height:320px;}
+  .valor-grid,.sol-grid,.stats-grid,.commit-inner,.testi-grid,.persp-grid{grid-template-columns:1fr;}
+  .valor-item,.commit-item,.persp-item{border-right:none;border-bottom:1px solid var(--line);padding:34px 0;}
+  .valor-item:last-child,.commit-item:last-child,.persp-item:last-child{border-bottom:none;}
+  .valor-item:not(:first-child),.commit-item:not(:first-child),.persp-item:not(:first-child){padding-left:0;}
+  .seg-grid{grid-template-columns:repeat(2,1fr);}
+  .cases-grid{grid-template-columns:1fr;}
+  .form-grid{grid-template-columns:1fr;}
+  .footer-grid{grid-template-columns:1fr 1fr;}
+}
+@media(max-width:640px){
+  :root{--pad:22px;}
+  
+  .section{padding:80px 0;}
+  .seg-grid{grid-template-columns:1fr;}
+  .footer-grid{grid-template-columns:1fr;}
+  .method-detail-inner{padding-left:4px;}
+  .method-head{grid-template-columns:44px 1fr auto;gap:16px;}
+}
+
+
+
+.hero.page{min-height:82vh;}
+.story{max-width:760px;}
+.story .lead{font-family:var(--serif);font-size:clamp(20px,2.3vw,26px);font-weight:300;line-height:1.5;color:var(--ink);margin-bottom:32px;}
+.story p{font-size:16.5px;line-height:1.85;color:var(--slate);font-weight:300;margin-bottom:22px;}
+.story p strong{color:var(--ink);font-weight:600;}
+.story .pull{border-left:3px solid var(--gold);padding:8px 0 8px 28px;margin:42px 0;}
+.story .pull p{font-family:var(--serif);font-size:clamp(19px,2.2vw,24px);font-style:italic;font-weight:300;line-height:1.5;color:var(--ink);margin:0;}
+.story .sign{margin-top:38px;font-size:15px;color:var(--slate);}
+.story .sign b{color:var(--ink);font-weight:600;}
+
+.team-single{position:relative;margin-top:66px;border-radius:3px;overflow:hidden;}
+.team-single img{width:100%;height:auto;display:block;filter:grayscale(.4) contrast(1.04);}
+.team-single::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,27,46,0) 52%,rgba(14,27,46,.46));pointer-events:none;}
+.team-single .cap{position:absolute;left:30px;bottom:26px;z-index:2;color:#fff;}
+.team-single .cap .k{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#EAD7A6;font-weight:700;margin-bottom:6px;text-shadow:0 1px 6px rgba(0,0,0,.5);}
+.team-single .cap .v{font-family:var(--serif);font-size:19px;text-shadow:0 1px 8px rgba(0,0,0,.5);}
+.team-ph{display:none;aspect-ratio:16/7;background:linear-gradient(135deg,var(--ink) 0%,var(--ink-deep) 100%);align-items:center;justify-content:center;}
+.team-ph span{font-size:13px;letter-spacing:.03em;color:var(--slate-on-dark);border:1px dashed var(--line-on-dark);padding:14px 22px;border-radius:3px;}
+.team-single.no-photo .team-ph{display:flex;}
+.team-single.no-photo .cap,.team-single.no-photo::after{display:none;}
+
+.vm-grid{display:grid;grid-template-columns:1fr 1fr;gap:72px;}
+.vm-item h3{font-family:var(--serif);font-size:clamp(20px,2.3vw,26px);font-weight:300;line-height:1.5;color:#fff;}
+.vm-item .eyebrow{margin-bottom:20px;}
+
+.values-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:56px;border-top:1px solid var(--line);border-left:1px solid var(--line);}
+.value-item{padding:30px 26px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:14px;transition:background .3s ease;}
+.value-item:hover{background:var(--paper-2);}
+.value-item .dot{width:8px;height:8px;border-radius:50%;background:var(--gold);flex:0 0 auto;}
+.value-item .name{font-family:var(--serif);font-size:17px;font-weight:700;color:var(--ink);}
+
+@media(max-width:980px){
+  .team-grid{grid-template-columns:1fr;max-width:440px;margin-left:auto;margin-right:auto;}
+  .vm-grid{grid-template-columns:1fr;gap:44px;}
+  .values-grid{grid-template-columns:repeat(2,1fr);}
+}
+@media(max-width:640px){ .values-grid{grid-template-columns:1fr;} }
+
+
+/* ===== Menu mobile (hambúrguer) ===== */
+.nav-burger{display:none;background:none;border:none;cursor:pointer;padding:10px;margin-left:auto;z-index:75;}
+.nav-burger span{display:block;width:24px;height:2px;background:currentColor;margin:5px 0;transition:transform .3s ease,opacity .3s ease;}
+.nav.menu-open .nav-burger span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.nav.menu-open .nav-burger span:nth-child(2){opacity:0;}
+.nav.menu-open .nav-burger span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+@media(max-width:1100px){
+  .nav-burger{display:block;color:#fff;}
+  .nav-links{display:none;}
+  .nav.menu-open .nav-links{display:flex;flex-direction:column;align-items:flex-start;gap:0;position:fixed;top:0;left:0;right:0;bottom:0;background:var(--ink,#0E1B2E);padding:96px 30px 40px;z-index:70;}
+  .nav.menu-open .nav-links li{display:block!important;width:100%;border-bottom:1px solid rgba(255,255,255,.08);}
+  .nav.menu-open .nav-links a{display:block;padding:18px 0;font-size:17px;color:#fff!important;}
+  .nav.menu-open .nav-links a.nav-cta{margin-top:18px;text-align:center;border:1px solid var(--gold-bright,#C9A766);color:var(--gold-bright,#C9A766)!important;border-radius:3px;}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="brand"><img src="logos/huntly-logo-light.png" alt="Huntly" class="brand-logo brand-logo-light" width="617" height="240"><img src="logos/huntly-logo-dark.png" alt="Huntly" class="brand-logo brand-logo-dark" width="685" height="240"></a>
+    <button class="nav-burger" id="navBurger" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="huntly-executive-search">Executive Search</a></li>
+      <li><a href="huntly-recrutamento-especializado">Recrutamento Especializado</a></li>
+      <li><a href="huntly-rpo">RPO</a></li>
+      <li><a href="huntly-quem-somos">Quem somos</a></li>
+      <li><a href="huntly-recrutadores">Recrutadores</a></li>
+      <li><a href="/#contato" class="nav-cta">Contato</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+
+<section class="hero page">
+  <div class="container">
+    <div class="eyebrow on-dark">Transparência</div>
+    <h1 class="hero-title">Privacidade <em>e</em> Termos de Uso.</h1>
+    <p class="hero-lead">Como tratamos os seus dados pessoais e as condições para uso deste site. Última atualização: junho de 2026.</p>
+  </div>
+</section>
+
+<style>
+.legal{max-width:76ch;}
+.legal h3{font-family:var(--serif);font-size:22px;font-weight:400;color:var(--ink);margin:38px 0 12px;}
+.legal p,.legal li{font-size:15.5px;line-height:1.75;color:var(--slate);}
+.legal ul{padding-left:22px;margin:10px 0 18px;display:flex;flex-direction:column;gap:8px;}
+.legal .pend{background:#FAF4E6;border-left:3px solid var(--gold);padding:2px 8px;}
+.legal .table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px 0 22px;}
+.legal table{width:100%;border-collapse:collapse;margin:0;font-size:14.5px;min-width:420px;}
+.legal th,.legal td{text-align:left;padding:10px 12px;border-bottom:1px solid #E3E8F0;color:var(--slate);vertical-align:top;}
+.legal th{color:var(--ink);font-weight:600;}
+</style>
+
+<section class="section" id="privacidade">
+  <div class="container">
+    <div class="eyebrow reveal">LGPD · Lei nº 13.709/2018</div>
+    <h2 class="section-title reveal">Política de <em>Privacidade</em>.</h2>
+    <div class="legal reveal">
+      <h3>1. Quem somos</h3>
+      <p>Esta Política descreve como a <strong>Huntly</strong> (Headhunters Recrutamento Digital Ltda., CNPJ 33.714.333/0001-31, com sede na Rua Caldas Novas, nº 50, Conj. 85, Cond. B Trade, Bethaville I, Barueri/SP, CEP 06404-301) ("Huntly", "nós"), na qualidade de controladora, trata os dados pessoais coletados por meio deste site, em conformidade com a Lei Geral de Proteção de Dados Pessoais (LGPD).</p>
+
+      <h3>2. Quais dados coletamos</h3>
+      <p>Coletamos apenas os dados que você nos fornece voluntariamente pelos formulários do site:</p>
+      <ul>
+        <li><strong>Formulários de contato comercial</strong> (Home e páginas de serviços): nome, e-mail, empresa, telefone, posição ou volume de contratações de interesse e a mensagem enviada.</li>
+        <li><strong>Formulário de cadastro de recrutadores parceiros:</strong> nome, e-mail, LinkedIn, WhatsApp, CNPJ, áreas de especialidade, mensagem e os registros de aceite desta Política e de autorização de contato.</li>
+      </ul>
+      <p>O botão flutuante de contato apenas redireciona você para o WhatsApp ou para o seu aplicativo de e-mail — não coleta dados por si. Este site não utiliza cookies de publicidade; caso passemos a usar ferramentas de estatística de navegação, esta Política será atualizada antes.</p>
+
+      <h3>3. Para que usamos e com qual base legal</h3>
+      <div class="table-wrap">
+      <table>
+        <tr><th>Finalidade</th><th>Base legal (art. 7º, LGPD)</th></tr>
+        <tr><td>Responder solicitações comerciais e elaborar propostas</td><td>Procedimentos preliminares de contrato e legítimo interesse</td></tr>
+        <tr><td>Avaliar e processar cadastros de recrutadores parceiros</td><td>Procedimentos preliminares de contrato</td></tr>
+        <tr><td>Contato por WhatsApp e e-mail com recrutadores</td><td>Consentimento (checkbox específico do formulário)</td></tr>
+        <tr><td>Cumprimento de obrigações legais e regulatórias</td><td>Obrigação legal</td></tr>
+      </table>
+      </div>
+
+      <h3>4. Com quem compartilhamos</h3>
+      <p>Não vendemos dados pessoais. Compartilhamos dados apenas com operadores estritamente necessários à operação do site — atualmente, o serviço de processamento de formulários <strong>Formspree</strong> (Formspree Inc., EUA), o que pode envolver transferência internacional de dados amparada nas salvaguardas do art. 33 da LGPD —, além de autoridades, quando exigido por lei.</p>
+
+      <h3>5. Por quanto tempo guardamos</h3>
+      <p>Mantemos os dados pelo tempo necessário às finalidades acima: mensagens comerciais, pelo período de tratativas e prazos legais aplicáveis; cadastros de recrutadores, enquanto durar o interesse na parceria ou até pedido de exclusão.</p>
+
+      <h3>6. Seus direitos</h3>
+      <p>Nos termos do art. 18 da LGPD, você pode solicitar a qualquer momento: confirmação do tratamento, acesso, correção, anonimização, portabilidade, eliminação, informação sobre compartilhamentos e revogação do consentimento. Para exercer seus direitos, escreva para <a href="mailto:atendimento@huntly.com.br">atendimento@huntly.com.br</a>. Responderemos nos prazos da legislação.</p>
+
+      <h3>7. Segurança</h3>
+      <p>Adotamos medidas técnicas e organizacionais proporcionais à natureza dos dados tratados, incluindo transmissão criptografada (HTTPS) e acesso restrito às informações recebidas pelos formulários.</p>
+
+      <h3>8. Atualizações</h3>
+      <p>Esta Política pode ser atualizada para refletir mudanças no site ou na legislação. A versão vigente estará sempre disponível nesta página, com a data de atualização no topo.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="termos" style="background:var(--paper-2);">
+  <div class="container">
+    <div class="eyebrow reveal">Condições de uso</div>
+    <h2 class="section-title reveal">Termos de <em>Uso</em>.</h2>
+    <div class="legal reveal">
+      <h3>1. Aceitação</h3>
+      <p>Ao navegar neste site ou enviar qualquer formulário, você concorda com estes Termos de Uso e com a Política de Privacidade acima. Se não concordar, pedimos que não utilize o site.</p>
+
+      <h3>2. Conteúdo informativo</h3>
+      <p>As informações deste site têm caráter institucional e informativo e não constituem proposta comercial vinculante. Condições, prazos e escopo de serviços são definidos em proposta e contrato específicos.</p>
+
+      <h3>3. Cadastro de recrutadores</h3>
+      <p>O envio do formulário de cadastro manifesta interesse em integrar a rede de recrutadores parceiros e não constitui, por si, vínculo de qualquer natureza com a Huntly. A parceria, quando aprovada, é formalizada por instrumento próprio, que prevalece sobre estes Termos.</p>
+
+      <h3>4. Propriedade intelectual</h3>
+      <p>A marca Huntly, os textos, o design e os demais elementos deste site são protegidos pela legislação de propriedade intelectual e não podem ser reproduzidos sem autorização prévia e expressa.</p>
+
+      <h3>5. Responsabilidades</h3>
+      <p>Empregamos esforços razoáveis para manter o site disponível e as informações atualizadas, mas não garantimos operação ininterrupta. Links para sites de terceiros são oferecidos por conveniência; não nos responsabilizamos por seus conteúdos ou práticas de privacidade.</p>
+
+      <h3>6. Lei aplicável e foro</h3>
+      <p>Estes Termos são regidos pelas leis da República Federativa do Brasil. Fica eleito o foro da comarca de Barueri, Estado de São Paulo para dirimir quaisquer controvérsias.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img src="logos/huntly-logo-light.png" alt="Huntly" class="footer-logo" width="617" height="240">
+        <p class="footer-tagline">Consultoria estratégica em Executive Search, Recrutamento Especializado e RPO.</p>
+      </div>
+      <div>
+        <div class="footer-col-title">Soluções</div>
+        <ul class="footer-col-list"><li><a href="huntly-executive-search">Executive Search</a></li><li><a href="huntly-recrutamento-especializado">Recrutamento Especializado</a></li><li><a href="huntly-rpo">RPO Estratégico</a></li><li><a href="huntly-recrutamento-varejo-atacado">Varejo &amp; Atacado</a></li></ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Recrutadores</div>
+        <ul class="footer-col-list"><li><a href="huntly-recrutadores#como-funciona">Como funciona</a></li><li><a href="huntly-recrutadores#faq">Principais dúvidas</a></li><li><a href="huntly-recrutadores#contato">Seja um partner</a></li></ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Quem somos</div>
+        <ul class="footer-col-list"><li><a href="huntly-quem-somos#historia">Nossa história</a></li><li><a href="huntly-quem-somos#missao">Missão e visão</a></li><li><a href="huntly-quem-somos#valores">Valores</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>&copy; 2026 Huntly. Todos os direitos reservados.</div>
+      <ul class="footer-bottom-links"><li><a href="huntly-legal#privacidade">Política de privacidade</a></li><li><a href="huntly-legal#termos">Termos de uso</a></li><li><a href="https://www.linkedin.com/company/huntlyoficial" target="_blank" rel="noopener">LinkedIn</a></li></ul>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Acordeão da metodologia
+document.querySelectorAll('.method-row[data-method]').forEach(function(row){
+  row.addEventListener('click', function(){
+    var active = row.classList.contains('active');
+    document.querySelectorAll('.method-row.active').forEach(function(r){r.classList.remove('active');});
+    if(!active) row.classList.add('active');
+  });
+});
+// Nav: alterna estado ao rolar (logo claro->navy, texto branco->navy)
+var nav = document.querySelector('.nav');
+function onScroll(){
+  if(window.scrollY > 24){ nav.classList.add('scrolled'); }
+  else { nav.classList.remove('scrolled'); }
+}
+window.addEventListener('scroll', onScroll); onScroll();
+// Reveal on scroll
+var io = new IntersectionObserver(function(entries){
+  entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+}, {threshold:.14});
+document.querySelectorAll('.reveal').forEach(function(el,i){
+  el.style.transitionDelay = (Math.min(i%3,3)*0.08)+'s';
+  io.observe(el);
+});
+</script>
+
+<!-- ============================================================
+     BOTÃO FLUTUANTE DE CONTATO (Huntly)
+     Contatos configurados — edite as 2 linhas abaixo se mudarem
+     ============================================================ -->
+<script>
+  var HUNTLY_WHATSAPP = "5511968438287";
+  var HUNTLY_EMAIL    = "atendimento@huntly.com.br";
+  var HUNTLY_WA_MSG   = "Olá! Vim pelo site da Huntly e gostaria de falar sobre uma contratação.";
+</script>
+<style>
+  .hfab{position:fixed;right:22px;bottom:22px;z-index:999;display:flex;flex-direction:column;align-items:flex-end;gap:12px;font-family:'Libre Franklin',sans-serif;}
+  .hfab-main{width:58px;height:58px;border-radius:50%;border:none;cursor:pointer;background:var(--ink,#0E1B2E);color:#C9A766;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 24px rgba(14,27,46,.35);transition:transform .2s ease,background .2s ease;}
+  .hfab-main:hover{transform:scale(1.06);}
+  .hfab-main svg{width:26px;height:26px;transition:transform .25s ease;}
+  .hfab.open .hfab-main svg{transform:rotate(90deg);}
+  .hfab-item{display:flex;align-items:center;gap:10px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .22s ease,transform .22s ease;}
+  .hfab.open .hfab-item{opacity:1;pointer-events:auto;transform:translateY(0);}
+  .hfab-label{background:#fff;color:#0E1B2E;font-size:13px;font-weight:600;letter-spacing:.01em;padding:7px 14px;border-radius:999px;box-shadow:0 3px 14px rgba(14,27,46,.18);white-space:nowrap;}
+  .hfab-icon{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(14,27,46,.25);}
+  .hfab-icon svg{width:24px;height:24px;}
+  .hfab-wa .hfab-icon{background:#25D366;color:#fff;}
+  .hfab-mail .hfab-icon{background:#0E1B2E;color:#C9A766;}
+  @media (max-width:640px){.hfab{right:16px;bottom:16px;}}
+</style>
+<div class="hfab" id="hfab">
+  <a class="hfab-item hfab-wa" id="hfabWa" href="#" target="_blank" rel="noopener" aria-label="Conversar pelo WhatsApp">
+    <span class="hfab-label">WhatsApp</span>
+    <span class="hfab-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.9 4.43-9.9 9.88 0 1.74.46 3.44 1.32 4.94L2 22l5.32-1.4a9.9 9.9 0 0 0 4.72 1.2h.01c5.45 0 9.89-4.43 9.89-9.88 0-2.64-1.03-5.12-2.9-6.99A9.83 9.83 0 0 0 12.04 2Zm0 18.1h-.01a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.11.82.83-3.04-.2-.31a8.16 8.16 0 0 1-1.26-4.36c0-4.53 3.69-8.21 8.23-8.21 2.2 0 4.26.86 5.81 2.41a8.16 8.16 0 0 1 2.41 5.82c0 4.53-3.69 8.2-8.22 8.2Zm4.51-6.15c-.25-.12-1.46-.72-1.69-.8-.23-.09-.39-.13-.56.12-.16.25-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.04-.38-1.99-1.22-.73-.65-1.23-1.46-1.37-1.7-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.57.12.16 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></svg></span>
+  </a>
+  <a class="hfab-item hfab-mail" id="hfabMail" href="#" aria-label="Enviar e-mail">
+    <span class="hfab-label">E-mail</span>
+    <span class="hfab-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+  </a>
+  <button class="hfab-main" id="hfabBtn" aria-label="Abrir opções de contato" aria-expanded="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5Z"/></svg>
+  </button>
+</div>
+<script>
+(function(){
+  var fab=document.getElementById('hfab'),btn=document.getElementById('hfabBtn');
+  document.getElementById('hfabWa').href='https://wa.me/'+HUNTLY_WHATSAPP+'?text='+encodeURIComponent(HUNTLY_WA_MSG);
+  document.getElementById('hfabMail').href='mailto:'+HUNTLY_EMAIL+'?subject='+encodeURIComponent('Contato pelo site — Huntly');
+  btn.addEventListener('click',function(e){e.stopPropagation();var open=fab.classList.toggle('open');btn.setAttribute('aria-expanded',open);});
+  document.addEventListener('click',function(e){if(!fab.contains(e.target)){fab.classList.remove('open');btn.setAttribute('aria-expanded','false');}});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){fab.classList.remove('open');btn.setAttribute('aria-expanded','false');}});
+})();
+</script>
+
+<script>
+(function(){
+  var nav=document.querySelector('.nav'),b=document.getElementById('navBurger');
+  if(!nav||!b)return;
+  b.addEventListener('click',function(){
+    var open=nav.classList.toggle('menu-open');
+    b.setAttribute('aria-expanded',open);
+    document.body.style.overflow=open?'hidden':'';
+  });
+  nav.querySelectorAll('.nav-links a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('menu-open');document.body.style.overflow='';});});
+})();
+</script>
+</body>
+</html>
