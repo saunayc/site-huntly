@@ -32,9 +32,10 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Libre+Franklin:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="preload" href="fonts/merriweather-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/libre-franklin-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>@font-face{font-family:'Merriweather';font-style:normal;font-weight:300 900;font-display:swap;src:url(fonts/merriweather-normal.woff2) format('woff2');unicode-range:U+0020-007E,U+00A0-00FF,U+0131,U+0152-0153,U+02C6,U+02DC,U+2013-2014,U+2018-201A,U+201C-201E,U+2022,U+2026,U+2039-203A,U+20AC,U+2122;}@font-face{font-family:'Merriweather';font-style:italic;font-weight:300 400;font-display:swap;src:url(fonts/merriweather-italic.woff2) format('woff2');unicode-range:U+0020-007E,U+00A0-00FF,U+0131,U+0152-0153,U+02C6,U+02DC,U+2013-2014,U+2018-201A,U+201C-201E,U+2022,U+2026,U+2039-203A,U+20AC,U+2122;}@font-face{font-family:'Libre Franklin';font-style:normal;font-weight:300 700;font-display:swap;src:url(fonts/libre-franklin-normal.woff2) format('woff2');unicode-range:U+0020-007E,U+00A0-00FF,U+0131,U+0152-0153,U+02C6,U+02DC,U+2013-2014,U+2018-201A,U+201C-201E,U+2022,U+2026,U+2039-203A,U+20AC,U+2122;}</style>
 
 <!-- Dados estruturados (Schema.org) -->
 <script type="application/ld+json">
@@ -43,15 +44,19 @@
   "@type": "ProfessionalService",
   "@id": "https://www.huntly.com.br/#organization",
   "name": "Huntly",
-  "legalName": "Headhunters Recrutamento Digital Ltda.",
-  "alternateName": "Huntly Brasil",
-  "description": "Huntly é uma consultoria brasileira de recrutamento, fundada em 2020: Executive Search, Recrutamento Especializado e RPO em uma só consultoria. Conectamos pessoas, negócios e propósitos.",
+  "legalName": "Huntly Recrutamento Digital Ltda.",
+  "alternateName": ["Huntly Brasil", "Headhunters Recrutamento Digital"],
+  "description": "Huntly é uma consultoria brasileira de recrutamento e seleção: Executive Search, Recrutamento Especializado e RPO em uma só consultoria. Conectamos pessoas, negócios e propósitos.",
   "url": "https://www.huntly.com.br/",
   "logo": "https://www.huntly.com.br/logos/huntly-logo-dark.png",
   "image": "https://www.huntly.com.br/og-image.jpg",
-  "foundingDate": "2020",
+  "foundingDate": "2019-05-23",
   "founder": { "@type": "Person", "name": "Renato Trindade", "jobTitle": "CEO e fundador" },
   "areaServed": { "@type": "Country", "name": "Brasil" },
+  "address": { "@type": "PostalAddress", "addressLocality": "Barueri", "addressRegion": "SP", "addressCountry": "BR" },
+  "email": "atendimento@huntly.com.br",
+  "telephone": "+55 11 96843-8287",
+  "contactPoint": { "@type": "ContactPoint", "contactType": "sales", "email": "atendimento@huntly.com.br", "telephone": "+55 11 96843-8287", "availableLanguage": ["pt-BR", "en"] },
   "knowsAbout": ["Executive Search", "Recrutamento executivo", "Headhunting", "RPO", "Recrutamento especializado", "Seleção de liderança", "Board Search"],
   "sameAs": ["https://www.linkedin.com/company/huntlyoficial"],
   "hasOfferCatalog": {
@@ -510,13 +515,14 @@ a{color:inherit;text-decoration:none;}
   .nav.menu-open .nav-links a.nav-cta{margin-top:18px;text-align:center;border:1px solid var(--gold-bright,#C9A766);color:var(--gold-bright,#C9A766)!important;border-radius:3px;}
 }
 </style>
+<script src="analytics.js" defer></script>
 </head>
 <body>
 
 <!-- NAV -->
 <nav class="nav">
   <div class="nav-inner">
-    <a href="/" class="brand"><img src="logos/huntly-logo-light.png" alt="Huntly" class="brand-logo brand-logo-light" width="617" height="240"><img src="logos/huntly-logo-dark.png" alt="Huntly" class="brand-logo brand-logo-dark" width="685" height="240"></a>
+    <a href="/" class="brand"><img src="logos/huntly-logo-light.webp" alt="Huntly" class="brand-logo brand-logo-light" width="206" height="80"><img src="logos/huntly-logo-dark.webp" alt="Huntly" class="brand-logo brand-logo-dark" width="228" height="80"></a>
     <button class="nav-burger" id="navBurger" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
     <ul class="nav-links">
       <li><a href="/" class="active">Home</a></li>
@@ -552,39 +558,39 @@ a{color:inherit;text-decoration:none;}
       <div class="logo-carousel">
         <div class="logo-track">
           <!-- Logos reais dos clientes (pasta logos/). Fallback em texto se o arquivo faltar. -->
-          <div class="logo-item"><img src="logos/cielo.png" alt="Cielo" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Cielo</span></div>
-          <div class="logo-item"><img src="logos/atacadao.png" alt="Atacadão" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Atacadão</span></div>
-          <div class="logo-item"><img src="logos/bmg.png" alt="Banco BMG" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Banco BMG</span></div>
-          <div class="logo-item"><img src="logos/edp.png" alt="EDP" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">EDP</span></div>
-          <div class="logo-item"><img src="logos/newave.png" alt="Newave Energia" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Newave Energia</span></div>
-          <div class="logo-item"><img src="logos/nivea.png" alt="NIVEA" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">NIVEA</span></div>
-          <div class="logo-item"><img src="logos/decathlon.png" alt="Decathlon" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Decathlon</span></div>
-          <div class="logo-item"><img src="logos/gwm.png" alt="GWM" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">GWM</span></div>
-          <div class="logo-item"><img src="logos/algar.png" alt="Algar Telecom" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Algar Telecom</span></div>
-          <div class="logo-item"><img src="logos/banco-pan.png" alt="Banco PAN" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Banco PAN</span></div>
-          <div class="logo-item"><img src="logos/dasa.png" alt="Dasa" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Dasa</span></div>
-          <div class="logo-item"><img src="logos/sinqia.png" alt="Sinqia" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Sinqia</span></div>
-          <div class="logo-item"><img src="logos/odontoprev.png" alt="Odontoprev" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Odontoprev</span></div>
-          <div class="logo-item"><img src="logos/track-field.png" alt="Track & Field" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Track & Field</span></div>
-          <div class="logo-item"><img src="logos/bracell.png" alt="Bracell" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Bracell</span></div>
-          <div class="logo-item"><img src="logos/coop.png" alt="Coop" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Coop</span></div>
+          <div class="logo-item"><img width="192" height="68" src="logos/cielo.webp" alt="Cielo" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Cielo</span></div>
+          <div class="logo-item"><img width="242" height="68" src="logos/atacadao.webp" alt="Atacadão" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Atacadão</span></div>
+          <div class="logo-item"><img width="166" height="68" src="logos/bmg.webp" alt="Banco BMG" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Banco BMG</span></div>
+          <div class="logo-item"><img width="181" height="68" src="logos/edp.webp" alt="EDP" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">EDP</span></div>
+          <div class="logo-item"><img width="195" height="68" src="logos/newave.webp" alt="Newave Energia" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Newave Energia</span></div>
+          <div class="logo-item"><img width="274" height="68" src="logos/nivea.webp" alt="NIVEA" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">NIVEA</span></div>
+          <div class="logo-item"><img width="437" height="68" src="logos/decathlon.webp" alt="Decathlon" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Decathlon</span></div>
+          <div class="logo-item"><img width="82" height="68" src="logos/gwm.webp" alt="GWM" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">GWM</span></div>
+          <div class="logo-item"><img width="169" height="68" src="logos/algar.webp" alt="Algar Telecom" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Algar Telecom</span></div>
+          <div class="logo-item"><img width="144" height="68" src="logos/banco-pan.webp" alt="Banco PAN" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Banco PAN</span></div>
+          <div class="logo-item"><img width="229" height="68" src="logos/dasa.webp" alt="Dasa" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Dasa</span></div>
+          <div class="logo-item"><img width="216" height="68" src="logos/sinqia.webp" alt="Sinqia" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Sinqia</span></div>
+          <div class="logo-item"><img width="405" height="68" src="logos/odontoprev.webp" alt="Odontoprev" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Odontoprev</span></div>
+          <div class="logo-item"><img width="118" height="68" src="logos/track-field.webp" alt="Track & Field" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Track & Field</span></div>
+          <div class="logo-item"><img width="302" height="68" src="logos/bracell.webp" alt="Bracell" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Bracell</span></div>
+          <div class="logo-item"><img width="383" height="68" src="logos/coop.webp" alt="Coop" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Coop</span></div>
           <!-- duplicata para o loop contínuo -->
-          <div class="logo-item" aria-hidden="true"><img src="logos/cielo.png" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Cielo</span></div>
-          <div class="logo-item" aria-hidden="true"><img src="logos/atacadao.png" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Atacadão</span></div>
-          <div class="logo-item" aria-hidden="true"><img src="logos/bmg.png" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Banco BMG</span></div>
-          <div class="logo-item" aria-hidden="true"><img src="logos/edp.png" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">EDP</span></div>
-          <div class="logo-item" aria-hidden="true"><img src="logos/newave.png" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Newave Energia</span></div>
-          <div class="logo-item" aria-hidden="true"><img src="logos/nivea.png" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">NIVEA</span></div>
-          <div class="logo-item" aria-hidden="true"><img src="logos/decathlon.png" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Decathlon</span></div>
-          <div class="logo-item" aria-hidden="true"><img src="logos/gwm.png" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">GWM</span></div>
-          <div class="logo-item" aria-hidden="true"><img src="logos/algar.png" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Algar Telecom</span></div>
-          <div class="logo-item" aria-hidden="true"><img src="logos/banco-pan.png" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Banco PAN</span></div>
-          <div class="logo-item" aria-hidden="true"><img src="logos/dasa.png" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Dasa</span></div>
-          <div class="logo-item" aria-hidden="true"><img src="logos/sinqia.png" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Sinqia</span></div>
-          <div class="logo-item" aria-hidden="true"><img src="logos/odontoprev.png" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Odontoprev</span></div>
-          <div class="logo-item" aria-hidden="true"><img src="logos/track-field.png" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Track & Field</span></div>
-          <div class="logo-item" aria-hidden="true"><img src="logos/bracell.png" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Bracell</span></div>
-          <div class="logo-item" aria-hidden="true"><img src="logos/coop.png" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Coop</span></div>
+          <div class="logo-item" aria-hidden="true"><img width="192" height="68" src="logos/cielo.webp" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Cielo</span></div>
+          <div class="logo-item" aria-hidden="true"><img width="242" height="68" src="logos/atacadao.webp" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Atacadão</span></div>
+          <div class="logo-item" aria-hidden="true"><img width="166" height="68" src="logos/bmg.webp" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Banco BMG</span></div>
+          <div class="logo-item" aria-hidden="true"><img width="181" height="68" src="logos/edp.webp" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">EDP</span></div>
+          <div class="logo-item" aria-hidden="true"><img width="195" height="68" src="logos/newave.webp" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Newave Energia</span></div>
+          <div class="logo-item" aria-hidden="true"><img width="274" height="68" src="logos/nivea.webp" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">NIVEA</span></div>
+          <div class="logo-item" aria-hidden="true"><img width="437" height="68" src="logos/decathlon.webp" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Decathlon</span></div>
+          <div class="logo-item" aria-hidden="true"><img width="82" height="68" src="logos/gwm.webp" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">GWM</span></div>
+          <div class="logo-item" aria-hidden="true"><img width="169" height="68" src="logos/algar.webp" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Algar Telecom</span></div>
+          <div class="logo-item" aria-hidden="true"><img width="144" height="68" src="logos/banco-pan.webp" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Banco PAN</span></div>
+          <div class="logo-item" aria-hidden="true"><img width="229" height="68" src="logos/dasa.webp" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Dasa</span></div>
+          <div class="logo-item" aria-hidden="true"><img width="216" height="68" src="logos/sinqia.webp" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Sinqia</span></div>
+          <div class="logo-item" aria-hidden="true"><img width="405" height="68" src="logos/odontoprev.webp" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Odontoprev</span></div>
+          <div class="logo-item" aria-hidden="true"><img width="118" height="68" src="logos/track-field.webp" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Track & Field</span></div>
+          <div class="logo-item" aria-hidden="true"><img width="302" height="68" src="logos/bracell.webp" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Bracell</span></div>
+          <div class="logo-item" aria-hidden="true"><img width="383" height="68" src="logos/coop.webp" alt="" loading="lazy" onerror="this.closest('.logo-item').classList.add('no-logo');this.remove();"><span class="logo-mark">Coop</span></div>
         </div>
       </div>
     </div>
@@ -946,7 +952,7 @@ a{color:inherit;text-decoration:none;}
   <div class="container">
     <div class="footer-grid">
       <div>
-        <img src="logos/huntly-logo-light.png" alt="Huntly" class="footer-logo" width="617" height="240">
+        <img src="logos/huntly-logo-light.webp" alt="Huntly" class="footer-logo" width="206" height="80">
         <p class="footer-tagline">Consultoria estratégica em Executive Search, Recrutamento Especializado e RPO.</p>
       </div>
       <div>
@@ -1066,7 +1072,7 @@ document.querySelectorAll('.reveal').forEach(function(el,i){
       btn.disabled=true;btn.innerHTML='Enviando...';status.className='form-status';
       fetch(form.action,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}})
       .then(function(r){
-        if(r.ok){form.reset();status.textContent='Mensagem recebida. Nossa equipe retorna em até 1 dia útil.';status.className='form-status ok';}
+        if(r.ok){form.reset();status.textContent='Mensagem recebida. Nossa equipe retorna em até 1 dia útil.';status.className='form-status ok';document.dispatchEvent(new CustomEvent('huntly:lead',{detail:{origem:(form.querySelector('[name=origem]')||{}).value||''}}));}
         else{throw new Error();}
       })
       .catch(function(){
