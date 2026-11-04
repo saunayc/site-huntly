@@ -11,11 +11,26 @@
       "source": "/huntly-site-v44/huntly-site/huntlysitev58/:path*",
       "destination": "/:path*",
       "permanent": true
+    },
+    {
+      "source": "/cases/:slug(como-estamos-ajudando-a-odontoprev.*)",
+      "destination": "/huntly-recrutamento-especializado#case-odontoprev",
+      "permanent": true
+    },
+    {
+      "source": "/cases",
+      "destination": "/huntly-recrutamento-especializado#cases",
+      "permanent": true
+    },
+    {
+      "source": "/cases/:path*",
+      "destination": "/huntly-recrutamento-especializado#cases",
+      "permanent": true
     }
   ],
   "headers": [
     {
-      "source": "/fonts/(.*)",
+      "source": "/(.*)\\.woff2",
       "headers": [
         {
           "key": "Cache-Control",
