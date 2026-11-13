@@ -46,6 +46,7 @@ Ship mode:     PR for review (main faz deploy automático no Vercel)
 - Case meios de pagamento: +1.500 posições comerciais; +2.600 candidatos mapeados. Fonte: `huntly-rpo.html#case-cielo`.
 - Case energia: ~70 posições core em 4 meses, +3.000 mapeados, +30 recrutadores. Fonte: `huntly-rpo.html#case-edp`.
 - Case PCD atacado e varejo: +700 posições afirmativas; +200 candidatos PCD mapeados; diversas áreas e níveis. Fonte: `huntly-rpo.html#case-atacadao`.
+  - **EM REVISÃO (2026-11-13):** os dois números não fecham (200 candidatos para 700 vagas, com conversão real de ~1 contratação a cada 11 encaminhados). Não usar o "+200" em conteúdo novo até a dona confirmar vagas trabalhadas, candidatos encaminhados, contratações e período.
 - Cases Recrutamento Especializado: Tenda, Odontoprev, Nivea. Fonte: `huntly-recrutamento-especializado.html#cases`.
 - Logos de clientes exibidos: Cielo, Atacadão, BMG, EDP, Newave, NIVEA, Decathlon, GWM, Algar, Banco PAN, Dasa, Sinqia, Odontoprev, Track & Field, Bracell, Coop. Fonte: `index.html`.
 
