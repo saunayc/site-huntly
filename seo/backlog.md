@@ -10,7 +10,7 @@ Cada item: consulta → página → mudança. Itens feitos vão para `log.md`.
 
 ## Próximos
 
-0. **Números do case PCD não fecham** → `/huntly-rpo#case-atacadao`, `/huntly-recrutamento-varejo-atacado#case`, `/huntly-recrutamento-pcd#case` → "+700 posições" e "+200 candidatos mapeados" se contradizem. Já retirado o "+200" do conteúdo novo; falta a dona confirmar os números reais para reescrever o case nas 3 páginas.
+0. **Case PCD: confirmar o que são as "+700"** → 3 páginas → "+200 candidatos" já trocado por "~8.000 candidatos PCD encaminhados" (dado da dona). Falta confirmar se as +700 são vagas abertas ou contratações; se forem contratações, reescrever o case como "~700 contratações PCD", que é um resultado mais forte.
 
 1. **Marca "Huntly recrutamento"** → `/` e diretórios → a Huntly não aparece no topo da própria busca de marca. Do lado do site: deixar explícito na home "Huntly Brasil — não confundir com Huntly.ai" (hoje só no `llms.txt`) e adicionar `disambiguatingDescription` no JSON-LD. Do lado de fora: oHub, Google Business Profile, correção no JobMentis (ver `directories.md`). Precisa da dona para os perfis externos.
 2. **Indexação** → todas as URLs → memória de ago/2026 indica que só a home aparecia em `site:`. Verificar no Search Console (precisa de acesso) e pedir indexação das páginas de serviço + nova página PCD.

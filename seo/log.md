@@ -5,3 +5,4 @@
 - 2026-11-13: RPO — definição de RPO no primeiro parágrafo + 5 perguntas frequentes com FAQPage → https://www.huntly.com.br/huntly-rpo#faq
 - 2026-11-13: Varejo & Atacado — removidos textos internos visíveis ao visitante; link para Recrutamento PCD → https://www.huntly.com.br/huntly-recrutamento-varejo-atacado
 - 2026-11-13: Retirado "+200 candidatos PCD mapeados" do conteúdo novo (página PCD e FAQ do RPO): número contradiz as +700 posições. Case original nas páginas RPO e Varejo aguarda números confirmados.
+- 2026-11-13: Case PCD nas páginas RPO, Varejo & Atacado e Recrutamento PCD: "+200 candidatos mapeados" → "~8.000 candidatos PCD encaminhados (cerca de 2 mil por ano)", dado do Manatal informado pela dona.
